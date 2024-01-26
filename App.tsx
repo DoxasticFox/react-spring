@@ -1,5 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { useSpring, animated } from '@react-spring/native';
+
+console.log(useSpring); // TODO
+console.log(animated); // TODO
 
 export default function App() {
   return (
